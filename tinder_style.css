@@ -1,0 +1,42 @@
+html, body {
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  line-height: 1.5;
+
+}
+	body {
+	background: -webkit-radial-gradient(circle,
+	 #00BFFF, #66CDAA); 
+	;
+	color:	#ffffff;
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebasneue-webfont.woff') format('woff'), 
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px
+
+}
+
+a {
+  color: #ffffff
+ ;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  border: 1px solid #000;
+  border-color: white;
+  margin: 5px;
+  text-align: center;
+  padding: 30px;
+}
+
+
